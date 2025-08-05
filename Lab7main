@@ -1,0 +1,21 @@
+package pack1;
+
+import java.util.Scanner;
+
+public class Lab7main {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        Lab7 p1 = new Lab7();
+
+        p1.setFirstName("Kambam");
+        p1.setLastName("Mahesh");
+        p1.setGender("M");
+
+        System.out.print("Enter mobile number: ");
+        String acceptedNumber = sc.next();
+        p1.setPhoneNumber(acceptedNumber);
+
+        p1.display();
+    }
+}
