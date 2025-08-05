@@ -1,0 +1,45 @@
+package pack1;
+
+public class Lab7 {
+
+    String firstName;
+    String lastName;
+    String gender;
+    String mobNum;
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    public String getGender() {
+        return gender;
+    }
+
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
+
+    public void setPhoneNumber(String num) {
+        this.mobNum = num;
+    }
+
+    public void display() {
+        System.out.println("Person Details");
+        System.out.println("First Name: " + firstName);
+        System.out.println("Last Name: " + lastName);
+        System.out.println("Gender: " + gender);
+        System.out.println("Mobile Number: " + mobNum);
+    }
+}
