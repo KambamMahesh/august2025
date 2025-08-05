@@ -1,0 +1,14 @@
+package pack1;
+
+public class PersonDetails {
+    public static void main(String[] args) {
+
+        person p = new person("Kambam", "Mahesh", 'M');
+
+        System.out.println("Person Details");
+        System.out.println("-----------------");
+        System.out.println("First Name: " + p.getFirstname());
+        System.out.println("Last Name: " + p.getLastname());
+        System.out.println("Gender: " + p.getGender());
+    }
+}
