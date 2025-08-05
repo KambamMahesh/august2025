@@ -1,0 +1,39 @@
+package pack1;
+
+public class person {
+	String firstname;
+	String lastname;
+	char gender;
+	person(String fn,String ln,char gen){
+		this.firstname=fn;
+		this.lastname = ln;
+        this.gender = gen;
+		
+	}
+	public String getFirstname() {
+		return firstname;
+	}
+	public void setFirstname(String firstname) {
+		this.firstname = firstname;
+	}
+	public String getLastname() {
+		return lastname;
+	}
+	public void setLastname(String lastname) {
+		this.lastname = lastname;
+	}
+	public char getGender() {
+		return gender;
+	}
+	public void setGender(char gender) {
+		this.gender = gender;
+	}
+	public static void main(String[] args) {
+        person p1 = new person("Mahesh", "Kambam", 'M');
+        System.out.println("First Name: " + p1.getFirstname());
+        System.out.println("Last Name: " + p1.getLastname());
+        System.out.println("Gender: " + p1.getGender());
+    }
+	
+
+}
